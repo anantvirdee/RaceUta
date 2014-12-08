@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/sutxtuserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:textColor="@android:color/white"
+        android:hint="Enter Username">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/sutxtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white" 
+        android:hint="Enter Password"/>
+
+    <EditText
+        android:id="@+id/sutxtRepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:textColor="@android:color/white"
+        android:hint="Re-Enter Password"/>
+	
+    <EditText
+        android:id="@+id/sutxtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white" 
+        android:hint="Enter email address"/>
+    
+    <Button
+        android:id="@+id/bCreateuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create User"
+        android:onClick="onClick" 
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
